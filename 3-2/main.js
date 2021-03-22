@@ -1,5 +1,4 @@
 
-
 const height = process.argv[2];
 //heightは高さという意
 const width = process.argv[3];
@@ -9,7 +8,7 @@ const width = process.argv[3];
 
 for(i=1;i<=height;i++){
     let shape = "";
-    //配列は[]だったが、文字を入れる宣言は""を使う
+    //配列は[]だったが、文字を入れる宣言はを使う
     for(j=1;j<=width;j++){
         if(i%2 === 0){
         //高さが偶数行目で、
@@ -46,5 +45,4 @@ for(i=1;i<=height;i++){
     }
 
 console.log(shape);
-
-}
+  }
