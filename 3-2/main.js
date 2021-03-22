@@ -45,4 +45,5 @@ for(i=1;i<=height;i++){
     }
 
 console.log(shape);
-  }
+
+}
